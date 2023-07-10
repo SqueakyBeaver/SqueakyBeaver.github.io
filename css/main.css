@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    /* background-image: url('https://e0.pxfuel.com/wallpapers/479/955/desktop-wallpaper-subtle-trans-pride-transgender.jpg');
+    background-size: cover; */
+    background: #22222c;
+}
+
+.main-area {
+    display: absolute;
+    margin: auto;
+    height: 80%;
+    width: 80%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 28pt;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    backdrop-filter: blur(5px);
+}
+
+.name {
+    display: block;
+    margin: auto;
+    height: 80%;
+    width: 80%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 28pt;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    backdrop-filter: blur(5px);
+    background-color: #dd8ce0a2;
+}
+
+
+.contact-area {
+    display: grid;
+}
+
+.contact-button {
+    display: flex;
+    align-items: first;
+    color: white;
+    padding: 15px;
+    font-family: "Comfortaa", helvetica, sans-serif;
+    font-size: 20pt;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    width: fit-content;
+    height: 25px;
+    margin: 10px 5px;
+    backdrop-filter: blur(5px);
+}
+
+.button-icon {
+    margin-right: 5px;
+    display: flex;
+    
+}
+
+.discord {
+    background-color: #5865f2b3;
+}
+
+.revolt {
+    background-color: #ff4654b3;
+}
+
+.mastodon {
+    background-color: #5687d0b3;
+}
+
+.github {
+    background-color: #dcdcdcb3;
+    color: black;
+}
+
+
+.pfp {
+    width: 25%;
+    height: auto;
+    clip-path: circle();
+    align-self: center;
+    margin: auto;
+}
