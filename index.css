@@ -4,7 +4,8 @@
     /* background-image: url('https://e0.pxfuel.com/wallpapers/479/955/desktop-wallpaper-subtle-trans-pride-transgender.jpg');
     background-size: cover; */
     background: hsl(240, 13%, 15%);
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 a:link {
@@ -22,7 +23,8 @@ a:hover {
     text-decoration: none;
 }
 
-.main-area {
+.main-area,
+.badges-area {
     display: absolute;
     margin: auto;
     height: 80%;
@@ -66,19 +68,23 @@ a:hover {
     text-align: left;
 }
 
-
-
 .interests h1 {
     background-color: hsl(286, 55%, 30%);
     width: 50%;
     border-radius: 5px;
     margin: auto;
+    padding: 4px;
+}
+
+.my-badges {
+    margin: auto;
+    display: grid;
+    grid: auto-flow 80px;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     color: whitesmoke;
+    background-color: hsl(240, 13%, 15%);
     border-top: 3px solid hsl(286, 55%, 30%);
     width: 100%;
     font-size: 28pt;
