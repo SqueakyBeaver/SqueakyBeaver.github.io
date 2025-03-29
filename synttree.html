@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/synttree.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet" />
+    <script src="js/synttree.js"></script>
+</head>
+<!-- TODO: Add link to main page -->
+
+<body>
+    <div class="title">
+        <h1>Syntax Tree Creator and Viewer</h1>
+    </div>
+
+    <div class="main-container">
+        <div class="tree-editor-container">
+            <label for="tree-editor">Enter syntax tree text here:</label>
+
+            <textarea id="tree-editor" rows="15" cols="30">
+[expr
+     [term
+         [factor
+             [id [B]]
+         ]
+     ]
+     [+]
+     [term
+         [factor
+             [id [C]]
+         ]
+     ]
+]</textarea>
+        </div>
+        <div class="tree-viewer-container">
+            
+        </div>
+    </div>
+
+    <footer>Made with 💜 and 30 minutes :3</footer>
+</body>
+
+</html>
